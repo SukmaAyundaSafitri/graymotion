@@ -1,0 +1,218 @@
+.f-left {
+	float: left;
+}
+
+.f-right { 
+	float: right;
+}
+
+.link-gray-blue {
+	color: #555;
+	text-decoration: none;
+}
+
+.link-gray-blue:hover {
+	color: #3eaadf;
+}
+
+.link-blue-gray {
+	color: #3eaadf;
+	text-decoration: none;
+}
+
+.link-blue-gray:hover {
+	color: #555;
+}
+
+.alert {
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-family: 'Century Gothic';
+	font-weight: lighter;
+}
+
+.alert-danger {
+	background: #f2dede;
+	color: #a94846;
+}
+
+.alert-info {
+	background: #d9edf7;
+	color: #31708f;
+}
+
+.btn {
+	padding: 15px;
+	border-radius: 50px;
+	font-family: Tahoma;
+	font-size: 15px;
+	letter-spacing: 1px;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.btn-block {
+	width: 100%;
+}
+
+.btn-white-blue {
+	border: 1px solid #3eaadf;
+	color: #3eaadf;
+	background: white;
+}
+
+.btn-white-blue:hover {
+	color: white;
+	background: #3eaadf;
+}
+
+.btn-blue-white {
+	background: #3eaadf;
+	border: 1px solid white;
+	color: white;
+}
+
+.btn-blue-white:hover {
+	color: #3eaadf;
+	border-color: #3eaadf;
+	background: white;
+}
+
+.btn-blue-blue {
+	background: #f74258;
+	border: 1px solid white;
+	color: white;
+}
+
+.btn-blue-blue:hover {
+	color: #f74258;
+	border-color: #f74258;
+	background: white;
+}
+
+.btn img {
+	position: absolute;
+	top: 5px;
+	left: 15px;
+}
+
+.btn-flat {
+	border: none;
+	padding: 10px;
+	outline: none;
+	font-family: Tahoma;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: white;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.btn-flat-blue {
+	background: #3eaadf;
+}
+
+.btn-flat-blue:hover {
+	color: #3eaadf;
+	background: white;
+	border: 1px solid #3eaadf;
+}
+
+/* PAGING WRAPPER */
+
+#paging-wrapper {
+	background: white;
+	line-height: 50px;
+	height: 50px;
+	color: #555;
+}
+
+#paging-wrapper .nav a {
+	width: 55px;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #f3f3f3;
+	text-decoration: none;
+	color: #555;
+}
+
+#paging-wrapper .nav.disabled a {
+	pointer-events: none;
+}
+
+#paging-wrapper .nav a:hover {
+	background: #3eaadf;
+	color: white;
+}
+
+#paging-wrapper .f-right {
+	padding-right: 15px;
+	font-size: 16px;
+}
+
+.row:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.form-group.no-flex {
+	display: block;
+}
+
+.form-group {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.form-group .label {
+	flex: 1;
+	padding: 10px 0;
+}
+
+.form-group .label label {
+
+}
+
+.form-group .input {
+	flex: 3;
+}
+
+.form-group .input input, .form-group .input select {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.col-4, .col-5, .col-6, .col-8, .col-10 {
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.col-10 {
+	width: 100%;
+}
+
+.col-8 {
+	width: 80%;
+}
+
+.col-6 {
+	width: 60%;
+}
+
+.col-5 {
+	width: 50%;
+}
+
+.col-4 {
+	width: 40%;
+}
+
+.col-offset-1 {
+	margin-left: 10%;
+}

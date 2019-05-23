@@ -1,0 +1,309 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#navbar-wrapper ::-webkit-scrollbar, .inbox ::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+#navbar-wrapper ::-webkit-scrollbar-thumb, .inbox ::-webkit-scrollbar-thumb {
+    background: #ddd;
+} 
+
+.dropdown-menu li.divider {
+	height: 1px;
+	margin: 7px 0;
+	background: #e5e5e5;
+	padding: 0;
+}
+
+.badge-ku {
+	vertical-align: middle;
+	border-radius: 50%;
+	font-size: 11px;
+	text-align: center;
+	height: 18px;
+	padding: 1px 6px;
+}
+
+.badge-green {
+	background: #22baa0;
+	color: white;
+}
+
+.badge-red {
+	background: #f25656;
+	color: white;
+}
+
+.badge-blue {
+	background: #12afcb;
+	color: white;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-right:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.btn-ku {
+	padding: 7px 11px;
+	border: none;
+	font-size: 12.5px;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn-white {
+	background: white;
+	color: inherit;
+	border: 1px solid #e5e5e5;
+}
+
+.btn-white:hover {
+	background: #f1f1f1;
+}
+
+.btn-green {
+	background: #22baa0;
+	color: white;
+}
+
+.btn-block {
+	width: 100%;
+}
+
+.waves-effect.waves-gray .waves-ripple {
+	background-color: rgba(0, 0, 0, .05);
+}
+
+.form-control {
+	width: 100%;
+	font-family: inherit;
+	color: inherit;
+	padding: 6px 10px;
+  border: 1px solid #dce1e4;
+}
+
+.form-control:focus {
+	outline: none;
+}
+
+/* GRID */
+.flex {
+	display: flex;
+}
+
+.space-arround {
+	justify-content: space-around;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.row {
+	margin: 0 -15px;
+}
+
+.row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	padding: 0 15px;
+	float: left;
+}
+
+.col-1.nopadding, .col-2.nopadding, .col-3.nopadding, .col-4.nopadding, .col-5.nopadding, .col-6.nopadding, .col-7.nopadding, .col-8.nopadding, .col-9.nopadding, .col-10.nopadding, .col-11.nopadding, .col-12.nopadding {
+	padding: 0;
+}
+
+.col-1.padding-right, .col-2.padding-right, .col-3.padding-right, .col-4.padding-right, .col-5.padding-right, .col-6.padding-right, .col-7.padding-right, .col-8.padding-right, .col-9.padding-right, .col-10.padding-right, .col-11.padding-right, .col-12.padding-right {
+	padding-right: 15px;
+}
+
+.col-1.padding-left, .col-2.padding-left, .col-3.padding-left, .col-4.padding-left, .col-5.padding-left, .col-6.padding-left, .col-7.padding-left, .col-8.padding-left, .col-9.padding-left, .col-10.padding-left, .col-11.padding-left, .col-12.padding-left {
+	padding-left: 15px;
+}
+
+.col-1 {
+	width: 8.3333%;
+}
+
+.col-2 {
+	width: 16.66666%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.3333%;
+}
+
+.col-5 {
+	width: 41.66666%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.3333%;
+}
+
+.col-8 {
+	width: 66.66666%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33333%;
+}
+
+.col-11 {
+	width: 91.66666%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+
+/* TABLE */
+.table-responsive {
+	width: 100%;
+	overflow-x: auto;
+	background: white;
+	padding: 15px;
+	position: relative;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table th {
+	font-weight: 600;
+}
+
+.table th, .table td {
+	text-align: left;
+	padding: 15px;
+}
+
+.table thead {
+	border-bottom: 2px solid #ddd;
+}
+
+.table tr:not(:last-child) {
+	border-bottom: 1px solid #ddd;
+}
+
+input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/* INPUT GROUP */
+.input-group {
+
+}
+
+.input-group .form-control {
+	float: left;
+	width: 90%;
+}
+
+.input-group-btn {
+	float: right;
+	width: 10%;
+	padding: 9px 10px;
+	height: 32px;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+.form-group label {
+	font-size: 14px;
+	margin-bottom: 3px;
+	display: block;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, .8);
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.panel-heading {
+	font-size: 16px;
+	font-weight: 400;
+	background: #22baa0;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.panel-body {
+	padding: 25px;
+}
+
+.modal {
+	width: 500px;
+	z-index: 100;
+	position: fixed;
+	background: #f1f4f9;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: none;
+}
+
+.modal [type='submit'] {
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 13px;
+}
